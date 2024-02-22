@@ -70,7 +70,7 @@ app.post("/register", async (req, res) => {
         }
         else {
             console.log("Password not matched");
-            res.redirect("/");
+            res.redirect("/error");
         }
 
     }
