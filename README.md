@@ -8,3 +8,14 @@ CSS: Styles the form to make it visually appealing.
 Node.js: Sets up an Express.js server to handle form submissions. It connects to a MongoDB database using Mongoose, defines a user schema, and saves user data to the database upon form submission.
 
 The server-side code includes routes to serve the HTML form and handle form submissions. Upon successful registration, the server responds with a success message, and in case of errors, it sends an appropriate error message.
+
+## Modules which should be added
++ express
++ dotenv
++ body-parser
++ mongoose
++ npm i mongodb
++ npm i
++ create a file with .env name in the file store
+MONGODB_USERNAME = "Your mongodb userid"
+MONGODB_PASSWORD = "Your mongodb password
